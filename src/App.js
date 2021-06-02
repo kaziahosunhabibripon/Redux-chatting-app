@@ -5,7 +5,7 @@ import Sidebar from './features/SideBar/Sidebar';
 function App() {
   return (
     <div className="App">
-      <h2>Let's Build Discord clone</h2>
+      {/* <h2>Let's Build Discord clone</h2> */}
       <Sidebar/>
     </div>
   );
