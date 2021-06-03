@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
+import Chat from './features/Chat/Chat';
 import Sidebar from './features/SideBar/Sidebar';
 
 function App() {
   return (
     <div className="App">
-      {/* <h2>Let's Build Discord clone</h2> */}
       <Sidebar/>
+      <Chat/>
+
     </div>
   );
 }
