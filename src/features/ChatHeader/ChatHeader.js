@@ -1,7 +1,7 @@
 import { EditLocationRounded, HelpRounded, Notifications, PeopleAltRounded, Search, SendRounded } from '@material-ui/icons';
 import React from 'react';
 import './ChatHeader.css';
-const ChatHeader = () => {
+const ChatHeader = ({channelName}) => {
     return (
         <div className="chatHeader">
             
@@ -9,7 +9,7 @@ const ChatHeader = () => {
                 <h3>
                     <span className="chatHeader_hash">#
                     </span>
-                    Test Channel Name
+                    {channelName}
                 </h3> 
             </div>
             <div className="chatHeader_right">
