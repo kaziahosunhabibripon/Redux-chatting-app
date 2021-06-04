@@ -7,6 +7,14 @@
 }
 .chat_messages{
     flex: 1;
+    overflow: scroll;
+}
+.chat_messages::-webkit-scrollbar{
+    display: none;
+}
+.chat_messages{
+    -ms-text-overflow-style: none;
+    scrollbar-width: none;
 }
 .chat_input{
     color:lightgray;
